@@ -6,7 +6,7 @@ from sklearn.impute import SimpleImputer
 csv파일을 읽어 들이는 함수
 pd.read_csv(파일 위치)
 """
-df=pd.read_csv("머신러닝 공부\data_preprocessing.csv")
+df=pd.read_csv("머신러닝 공부\2020-AI세미나\Week2\data_preprocessing.csv")
 
 print(df)
 """
@@ -55,7 +55,7 @@ print(imputed_data)
 임의로 만들어 놓은 데이터에(옷에 대한 크기, 색, 가격을 넣은 데이터) 크기 특성을 순서에 맞게 특성 매칭을 하는 알고리즘
 옷의 사이즈에 따라서 XL=3, L=2, M=1로 변환하여서 특성을 맵핑(기존의 순서적 관계도가 존재하여 맵핑이 가능한 경우)
 """
-dt=pd.read_csv("머신러닝 공부\mapping.csv")
+dt=pd.read_csv("머신러닝 공부\2020-AI세미나\Week2\mapping.csv")
 print(dt)
 size_mapping={
 'XL':3,
